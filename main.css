@@ -115,6 +115,11 @@ header {
 	color: white;
 	margin-left: 10px;
 }
+.change-color {
+  background-color: #a9a9a9;
+  transition: background-color 1s;
+  color: white;
+}
 /*FLEXBOX Section*/
 .row {
   display: flex;
@@ -127,6 +132,10 @@ header {
   position: relative;
   text-align: center;
   color: white;
+}
+.change-opacity {
+  opacity: 0.7;
+  transition: opacity .25s ease-in-out;
 }
 .column img {
 	width: 100%;
