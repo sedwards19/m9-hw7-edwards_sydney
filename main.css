@@ -40,6 +40,12 @@ h3 {
 	color: #ff6633;
 	size: 1.2rem;
 }
+p {
+  color: #ffffff;
+  size: 1.2rem;
+  text-align: left;
+  padding-left: 20px;
+}
 /*HEADER*/
 header {
     width: 100%;
@@ -93,10 +99,7 @@ header {
   margin-top: 25px;
 }
 /*Nav Section*/
-#green {
-	color: #c1e40e;
-}
-#greenbutton {
+.greenbutton {
 	background-color: #c1e40e;
 	padding-bottom: 5px;
 	padding-left: 5px;
@@ -106,19 +109,28 @@ header {
 	margin-bottom: 10px;
 	margin-left: 10px;
 }
-#orangebutton {
+.orangebutton {
 	background-color: #ff6633;
 	padding-bottom: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
 	border-radius: 3px;
-	color: white;
+	color: black;
 	margin-left: 10px;
 }
 .change-color {
-  background-color: #a9a9a9;
-  transition: background-color 1s;
+  background-color: #696969;
   color: white;
+  transition: background-color color 1s;
+}
+.hide-div {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s
+}
+.show-div {
+  height: 100px;
+  transition: height 1s
 }
 /*FLEXBOX Section*/
 .row {
